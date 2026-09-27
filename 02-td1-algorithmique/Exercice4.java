@@ -41,7 +41,8 @@ public class Exercice4 {
         for (int i = 0; i < n; i++) {
             variance += Math.pow(tab[i] - moyenne, 2);
         }
-        double ecartType = Math.sqrt(variance / n);
+        variance /= n;
+        double ecartType = Math.sqrt(variance);
         System.out.println("Variance: " + variance);
         System.out.println("Ecart type: " + ecartType);
 

@@ -33,7 +33,7 @@ public class Exercice2Main {
         }
 
         System.out.println("Les nombres d'armstrongs entre a et b sont :");
-        for(int i=a;i<b;i++){
+        for(int i=a;i<=b;i++){
             armstrong=Exercice2.est_armstrong(i);
             if(armstrong==true) {
                 System.out.println(i);
@@ -43,11 +43,11 @@ public class Exercice2Main {
 
         System.out.println("Les nombres amicaux entre a et b sont :");
         for(int i=a;i<=b;i++){
-            for(int j=i;j<=b;j++){
+            for(int j=i+1;j<=b;j++){
                 amicaux=Exercice2.sont_amicaux(i,j);
                 if(amicaux ==true) {
                     System.out.println(i+" et "+ j);
-                    nbr_armstrog++;
+                    nbr_amicaux++;
                 }
             }
             

@@ -27,7 +27,7 @@ public class Exo1 {
                 break;
             case "/":
                 if (b != 0) {
-                    System.out.println("Le quotient de a et b est : " + (a / b));
+                    System.out.println("Le quotient de a et b est : " + ((double) a / b));
                 } else {
                     System.out.println("Division par zéro n'est pas autorisée.");
                 }
