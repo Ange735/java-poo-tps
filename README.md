@@ -1,4 +1,4 @@
-# ☕ Java : TD et TP de programmation orientée objet
+#  Java : TD et TP de programmation orientée objet
 
 Exercices et TP du module de **programmation orientée objet en Java** (S6), des bases du langage jusqu'à l'héritage, l'abstraction et une première interface Swing.
 
